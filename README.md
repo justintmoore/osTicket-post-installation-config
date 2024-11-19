@@ -1,14 +1,13 @@
 <p align="center">
     <img src="https://i.imgur.com/Clzj7Xs.png" alt=osTicket logo"/>
-
-  
-<h2>Technologies Used</h2> 
+    
+## Technologies Used
 - Microsoft Azure <br>
 - Remote Desktop <br>
 - Internet Information Service
 
 
-<h2>Operating Systems Used</h2>
+## Operating Systems Used
 - Windows 10 <br>
 - Windows Server 2022
 <h2>Definitions</h2>
@@ -16,7 +15,7 @@
 <b>Internet Information Services</b>: is a tool that runs on Windows systems that supports various protocols (HTTP, HTTPS, FTP, ect). IIS includes features managing sites, applications  and server performance.
 
 
-<h2>Prerequisites</h2>
+## Prerequisites
 
 <p>
 <p align="center">
@@ -26,7 +25,7 @@
 <p> In Microsoft Azure, to set up a Virtual Machine: click Virtual Machine -> create -> zone 3 -> Windows 10 -> username and password and then create. I copy the IP address and paste into the remote desktop and log in with the username and password set up. Finally, copy and paste the lab project into browser. The lab project has the files listed that are needed to set up osTicket. </p>
 
 
-<h2>Installing files</h2>
+## Installing files
 <p align="center">
     <img src="https://github.com/user-attachments/assets/f0799a35-207d-45f8-9e7e-21fa5686f488" height="50%" width="50%" alt="step one"/>
 </p>
@@ -137,6 +136,7 @@
 </p>
 
 <p>Congrats you have downloaded osTicket. From here you can learn the program and how to resolve tickets and create accounts.</p>
+
 
 
 
