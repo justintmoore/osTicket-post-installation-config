@@ -129,7 +129,7 @@ Sorry about the change in format. As I continue to document my projects, I'm alw
 <br>
 <br>
 <strong><p align="center">
-    We have successfully downloaded, installed, osTicket. We have configured users, and agents. Here on out, we can play around with osTicket, creating tickets, observing ticket lifecycles, deny permissions, the sky is the limit! Thank you for following along@
+    We have successfully downloaded, installed, osTicket. We have configured users, and agents. Here on out, we can play around with osTicket, creating tickets, observing ticket lifecycles, deny permissions, the sky is the limit! Thank you for following along!
 </p></strong>
 
 
