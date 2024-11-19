@@ -14,7 +14,120 @@
 
 ## Program Walkthrough
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/f0799a35-207d-45f8-9e7e-21fa5686f488" height="50%" width="50%" alt="step one"/>
+    In this lab we are just going to explore the osTicket portal a bit. Make some configurations before we creating and solving mock tickets. There are two main URLs we should be familiar with.
+</p>
+<br>
+<p align="center">
+    Admin Page: <a href="http://localhost/osticket/scp/login.php">http://localhost/osticket/scp/login.php</a> and the End User page:<a href="http://localhost/osticket">http://localhost/osticket</a>
+</p>
+<br>
+<p align="center">
+   Below is the admin portal, where we have control over settings and configurations.
+</p>
+
+<br>
+
+<p align="center">Admin Portal</p>
+<p align="center">
+    <img src="https://i.imgur.com/yIvgXvG.png" height="60%" width="60%" alt="step one"/>
+</p>
+
+<br> 
+
+<p align="center">End User Portal</p>
+<p align="center">
+    <img src="https://i.imgur.com/A2xk8gp.png" height="60%" width="60%" alt="step one"/>
+</p>
+<br>
+
+<p align="center">The first thing we are going to do is configure roles, which in short is group users together based on job duties and function, and setting permissions to those created groups. To do this we must navigate Admin Panel -> Agents -> Roles. Here we can do a number of things, such as check the preconfigured roles and permissions, or you can add new roles. In this case click the button Add New Roles. It's good to mention that naming scheme may differ amongst the different ticketing services, it's typically the same in functionality.
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/Ei2ncZT.png" height="60%" width="60%" alt="step one"/>
+</p>
+<br>
+
+<p align="center">
+    Now we go into Permissions, and assign permissions based on Tickets, Tasks, and Ability to manage the Knowledgebase. Now select Add Role. Of course you are going to be specific to a persons actual job responsibilities, here we are just having a little fun. 
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/H8zul82.png" height="60%" width="60%" alt=""/>
+</p>
+<br>
+
+<p align="center">
+    Next we will configure departments (Help Desk, Interns, SysAdmins, Networking).
+    To do this we must navigate to Admin Panel -> Agents -> Departments.
+    We will add a new department in the shape of SysAdmins.
+    There are many different configurations we can do, such as choosing specific SLA's, creating agents, etc. Much of this will be covered later in this project. For now, we will set the Parent, name, then select Create!
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/xrR7BDr.png" height="60%" width="60%" alt="step one"/>
+</p>
+<br>
+
+<p align="center">
+    Next we will create Teams. Teams is an entity where you can add different agents, from different departments, with different roles. To configure a Team navigate to Admin Panel -> Agents -> Teams. For my example I chose to name the Network Troubleshooting team. While we don't have any agents yet, This can consist of a network engineer, IT support specialist, and a sysadmin. Create your Team.
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/kb79kpR.png" height="60%" width="60%" alt=""/>
+</p>
+<br>
+
+<p align="center">
+    We must configure osTicket in a way that allows anyone to create tickets even if they aren't registered in the system. This includes End Users. To do this navigate to Admin Panel -> Settings -> User Settings (UNCHECK Registration Required)
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/FwZCMom.png" height="60%" width="60%" alt=""/>
+</p>
+<br>
+
+<p align="center">
+    We can now work on creating Agents. Navigate to Admin Panel -> Agents -> Add New Agent. Creating Agents is straight forward, you can set passwords (statically, or at next login), choose departments, roles, teams, etc. I will go ahead and creat a couple Agents, it's a good idea to mark them down in a text editor for future lab use.
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/KHJa5wl.png" height="60%" width="60%" alt=""/>
+</p>
+
+<p align="center">
+     <img src="https://i.imgur.com/bNChVf9.png" height="60%" width="60%" alt=""/>
+</p>
+<br>
+
+<p align="center">
+    Now that we created Agents, it's time to create of End Users! Navigate to Agent Panel -> Users -> Add User. Compared to creating Agents, it's much simpler.
+</p>
+
+<p align="center">
+     <img src="https://i.imgur.com/rXu1gtn.png" height="60%" width="60%" alt=""/>
+</p>
+<br>
+
+<p align="center">
+    Service Level Agreements or SLA for short. These are formal agreements between a service provider and a client that defines the expected service standards, such as response times, resolution times, and performance metrics, ensuring accountability and clarity for both parties. To create SLAs navigate to Admin Panel -> Manage -> SLA -> Add New SLA Plan.
+</p>
+<p>
+    I will create 3 SLAs based on severity levels, A being the worst, and C being everyday ticket on low priority. If you need definitions of each field name, hover over the question mark. For an Example I have Sev-A, for Severity A. A Grace Period of 1 hour of receiving the ticket, in a 24/7 schedule. So it has to be resolved within an hour of being created. We will leave everything else blank.
+</p>
+
+<p align="center">
+     <img src="https://i.imgur.com/7q4IwAY.png" height="60%" width="60%" alt=""/>
+</p>
+<br>
+
+<p align="center">
+    Lastly we will configure Help Topics. These will help categorize tickets such as password resets, networking issues, hardware issues, equipment requests, etc. Navigate to Admin Panel -> Manage -> Help Topics -> Add New Help Topic
+</p>
+
+<!--
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/f0799a35-207d-45f8-9e7e-21fa5686f488" height="60%" width="60%" alt=""/>
 </p>
 
 <p align="center">After creating a virtual machine in azure and logging in. Download and unzip the osTicket installation files.</p>
