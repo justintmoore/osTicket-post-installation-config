@@ -1,32 +1,18 @@
 <p align="center">
     <img src="https://i.imgur.com/Clzj7Xs.png" alt=osTicket logo"/>
     
-## Technologies Used
+## Tools, Utilities, Services Used
 - Microsoft Azure <br>
 - Remote Desktop <br>
 - Internet Information Service
 
 
-## Operating Systems Used
+## Environments Used
 - Windows 10 <br>
 - Windows Server 2022
   
-## Definitions
-<b>Localhost</b>: is a loopback request represented by the address 127.0.0.1. Localhost is a tool for testing web applications, network testing, and blocking malicious websites. <br>
-<br>
-<b>Internet Information Services</b>: is a tool that runs on Windows systems that supports various protocols (HTTP, HTTPS, FTP, ect). IIS includes features managing sites, applications  and server performance.
 
-
-## Prerequisites
-<p>
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/c9842e41-8621-45e4-b4ac-e42dae7213a3" height="50%" width="50%" alt="step one"/>
-</p>
-
-<p align="center"> In Microsoft Azure, to set up a Virtual Machine: click Virtual Machine -> create -> zone 3 -> Windows 10 -> username and password and then create. I copy the IP address and paste into the remote desktop and log in with the username and password set up. Finally, copy and paste the lab project into browser. The lab project has the files listed that are needed to set up osTicket. </p>
-<br>
-
-## Installing files
+## Program Walkthrough
 <p align="center">
     <img src="https://github.com/user-attachments/assets/f0799a35-207d-45f8-9e7e-21fa5686f488" height="50%" width="50%" alt="step one"/>
 </p>
