@@ -1,5 +1,7 @@
 <p align="center">
-    <img src="https://i.imgur.com/Clzj7Xs.png" alt=osTicket logo"/>
+    <img src="https://i.imgur.com/Clzj7Xs.png" alt=osTicket logo"/>  
+    
+Sorry about the change in format. As I continue to document my projects, I'm always looking for better ways to enhance my presentations! 
     
 ## Tools, Utilities, Services Used
 - Microsoft Azure <br>
