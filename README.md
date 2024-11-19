@@ -126,6 +126,12 @@ Sorry about the change in format. As I continue to document my projects, I'm alw
 <p align="center">
     Lastly we will configure Help Topics. These will help categorize tickets such as password resets, networking issues, hardware issues, equipment requests, etc. Navigate to Admin Panel -> Manage -> Help Topics -> Add New Help Topic
 </p>
+<br>
+<br>
+<strong><p align="center">
+    We have successfully downloaded, installed, osTicket. We have configured users, and agents. Here on out, we can play around with osTicket, creating tickets, observing ticket lifecycles, deny permissions, the sky is the limit! Thank you for following along@
+</p></strong>
+
 
 <!--
 <p align="center">
