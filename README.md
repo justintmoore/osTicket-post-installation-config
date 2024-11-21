@@ -124,13 +124,26 @@ Sorry about the change in format. As I continue to document my projects, I'm alw
 <br>
 
 <p align="center">
-    Lastly we will configure Help Topics. These will help categorize tickets such as password resets, networking issues, hardware issues, equipment requests, etc. Navigate to Admin Panel -> Manage -> Help Topics -> Add New Help Topic
+    Lastly we will configure Help Topics. These will help categorize tickets such as password resets, networking issues, hardware issues, equipment requests, etc. Navigate to Admin Panel -> Manage -> Help Topics -> Add New Help Topic.  We have successfully downloaded, installed, osTicket. We have configured users, and agents. Here on out, we can play around with osTicket, creating tickets, observing ticket lifecycles, deny permissions, the sky is the limit! Thank you for following along!
 </p>
 <br>
+
+
+## Lessons Learned
+<p align="center">
+   Having worked in Help Desk I have a solid understanding of the lifecycle of ticketing systems, what I don't have is the administrative knowledge that runs it. By implementing this opensource help desk ticketing system (osTicket) I was able to see the processes and policies that go into creating a well organized system. I learned to configure roles, departments, teams, agents, and users. I understand that other ticketing services are different, and while naming schemes may be different, the underlining concepts are the same. I learned how to create and configure help topics, that provide an ease of service, when allowing users to choose. I got the oppurtunity to work with Service Level Agreements (SLAs) and configure some of my own. I realize the importance of SLAs and how it not only sets a standard in work preformance, but also creates an trusting agreement between technicians and customers/endusers.
+</p>
 <br>
-<strong><p align="center">
-    We have successfully downloaded, installed, osTicket. We have configured users, and agents. Here on out, we can play around with osTicket, creating tickets, observing ticket lifecycles, deny permissions, the sky is the limit! Thank you for following along!
-</p></strong>
+<p align="center">
+    <strong>The Marathon Continues!</strong>
+</p>
+
+
+
+
+
+
+
 
 
 <!--
